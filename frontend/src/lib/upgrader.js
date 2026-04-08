@@ -26,7 +26,7 @@ export const deriveStatsFromInputs = ({ fiveKmSeconds, hundredMeterSeconds, push
 };
 
 export const getTier = (overall) => {
-  if (overall >= 90) return 'Special';
+  if (overall >= 90) return 'ELITE';
   if (overall >= 78) return 'Gold';
   if (overall >= 63) return 'Silver';
   return 'Bronze';
